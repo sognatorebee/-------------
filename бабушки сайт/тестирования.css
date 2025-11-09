@@ -1,0 +1,69 @@
+main{
+    background: #FFFAE6;
+}
+main, header, footer,body{
+    margin: 0px;
+}
+header{
+    padding-bottom: 10px;
+    border-bottom: 1px red solid;
+}
+.shapka a{
+    color: black; 
+    text-decoration: none; 
+    border-bottom: 4px red solid; 
+    font-size: 30px;
+}
+.shapka{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#glbut img{
+    width: 30px; 
+    height: 30px;
+    margin-top: 4%;
+}
+#glbut{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    background: #FFCC00;  
+    border: 0px; 
+    border-radius: 7px;
+    flex-direction: row;
+}
+.bebebe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.bebebe div img{
+    margin-top: 10%;
+    margin-left: 10%;
+    border-radius: 100px;
+    width: 70%; 
+    height: 10%px;
+}
+
+.kyrs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.kyrs div{
+    text-align: center;
+    font-size: 250%
+}
+.kyrs div img{
+    width: 50%; 
+    height: 50%px;
+}
+.servis{
+    border-radius: 100px;
+    width: 20%; 
+    height: 1%px;
+    margin-top: 5%;
+}

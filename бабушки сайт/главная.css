@@ -1,0 +1,91 @@
+main{
+    background: #FFFAE6;
+}
+main, header, footer,body{
+    margin: 0px;
+}
+header{
+    padding-bottom: 10px;
+    border-bottom: 1px red solid;
+}
+.shapka a{
+    color: black; 
+    text-decoration: none; 
+    border-bottom: 4px red solid; 
+    font-size: 30px;
+}
+.shapka{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#glbut img{
+    width: 30px; 
+    height: 30px;
+    margin-top: 4%;
+}
+#glbut{
+    font-size: 17px;
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+    background: #FFCC00;  
+    border: 0px; 
+    border-radius: 7px;
+}
+
+.osnova{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.govno2{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column-reverse;
+}
+.govno2 a{
+    width: 40%; 
+    font-size: 30px; 
+    margin-bottom: 5%; 
+    color: black; 
+    text-decoration: none; 
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.govno2 a img{
+    width: 15%; 
+    height: 15%; 
+    margin-top: 4%;
+}
+.yroku{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.yrok {
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+    height: 400px;
+    width: 300px;
+    box-shadow: 3px 1px 6px 3px #FFCC00;
+}
+.yrok img{
+    margin-top: 10%;
+}
+.posl div img{
+    margin-top: 10%;
+    border-radius: 100px;
+    width: 500px; 
+    height: 150px;
+}
+.posl{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
